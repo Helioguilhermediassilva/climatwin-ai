@@ -159,8 +159,12 @@ Para adicionar novas fontes de dados, modifique o arquivo `lib/constants.js` e e
 
 ## 📄 Licença
 
-Este repositório está temporariamente público apenas para fins de desenvolvimento colaborativo. 
-Todo o conteúdo é propriedade da NowGo Holding e será tornado privado após a primeira versão funcional.
+Copyright (c) 2025 NowGo Holding
+
+Este software é fornecido exclusivamente para fins de desenvolvimento autorizado.
+Qualquer uso, cópia, modificação, distribuição ou sublicenciamento sem permissão explícita da NowGo é proibido.
+
+Todos os direitos reservados.
 
 ## 🙏 Agradecimentos
 
