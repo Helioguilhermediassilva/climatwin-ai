@@ -159,7 +159,8 @@ Para adicionar novas fontes de dados, modifique o arquivo `lib/constants.js` e e
 
 ## 📄 Licença
 
-Este projeto está sob a licença ISC.
+Este repositório está temporariamente público apenas para fins de desenvolvimento colaborativo. 
+Todo o conteúdo é propriedade da NowGo Holding e será tornado privado após a primeira versão funcional.
 
 ## 🙏 Agradecimentos
 
