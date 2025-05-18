@@ -1,0 +1,130 @@
+.footer {
+  background-color: var(--secondary-color);
+  padding: 2rem 0;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footerTitle {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.dataSourcesSection {
+  text-align: center;
+}
+
+.dataSourcesGrid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.dataSourceLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text-color);
+  transition: transform 0.3s ease;
+}
+
+.dataSourceLink:hover {
+  transform: translateY(-5px);
+}
+
+.dataSourceLogo {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.logoPlaceholder {
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.dataSourceName {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.footerInfo {
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 1.5rem;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.footerLink {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footerLink:hover {
+  color: #004d00;
+  text-decoration: underline;
+}
+
+.disclaimer {
+  max-width: 700px;
+  margin: 0 auto 1rem;
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .dataSourcesGrid {
+    gap: 1rem;
+  }
+  
+  .dataSourceLogo {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .footerLinks {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
